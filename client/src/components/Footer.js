@@ -12,13 +12,16 @@ const styles = {
   links: {
     color: "white",
     margin: "0px 50px",
+    textDecoration: "none",
+    padding: "8px",
+    border: "3px solid #3D8361",
   },
 };
 
 function Footer() {
   return (
     <div style={styles.footer}>
-      <h3 style={styles.text}>
+      <h3>
         <a
           href="https://github.com/ConnerMart"
           style={styles.links}
@@ -28,7 +31,7 @@ function Footer() {
           GitHub
         </a>
       </h3>
-      <h3 style={styles.text}>
+      <h3>
         <a
           href="https://www.linkedin.com/in/conner-martin-723267166/"
           style={styles.links}

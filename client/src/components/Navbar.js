@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 
 const styles = {
   navbar: {
+    backgroundColor: "#3D8361",
     display: "flex",
     flexDirection: "horizontal",
     justifyContent: "space-evenly",
   },
   text: {
-    color: "#3D8361",
+    color: "white",
     textAlign: "center",
     textDecoration: "none",
   },
