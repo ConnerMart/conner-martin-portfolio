@@ -8,25 +8,34 @@ const styles = {
     justifyContent: "space-evenly",
   },
   text: {
-    color: "purple",
+    color: "#3D8361",
     textAlign: "center",
+    textDecoration: "none",
   },
 };
 
 function Navbar() {
   return (
     <div style={styles.navbar}>
-      <h3 style={styles.text}>
-        <Link to="/about">About Me</Link>
+      <h3>
+        <Link to="/about" style={styles.text}>
+          About Me
+        </Link>
       </h3>
-      <h3 style={styles.text}>
-        <Link to="/portfolio">Portfolio</Link>
+      <h3>
+        <Link to="/portfolio" style={styles.text}>
+          Portfolio
+        </Link>
       </h3>
-      <h3 style={styles.text}>
-        <Link to="/resume">Resume</Link>
+      <h3>
+        <Link to="/resume" style={styles.text}>
+          Resume
+        </Link>
       </h3>
-      <h3 style={styles.text}>
-        <Link to="/contact">Contact</Link>
+      <h3>
+        <Link to="/contact" style={styles.text}>
+          Contact
+        </Link>
       </h3>
     </div>
   );

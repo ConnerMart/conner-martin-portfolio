@@ -3,10 +3,10 @@ import React from "react";
 const styles = {
   card: {
     margin: 20,
-    background: "#e8eaf6",
+    background: "#3D8361",
   },
   heading: {
-    background: "purple",
+    background: "#1C6758",
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "1.2rem",
@@ -24,6 +24,12 @@ function About() {
       <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
         <p>Here's some text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
       </div>
     </div>
   );

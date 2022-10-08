@@ -3,7 +3,7 @@ import React from "react";
 const styles = {
   text: {
     color: "white",
-    backgroundColor: "purple",
+    backgroundColor: "#1C6758",
     textAlign: "center",
     padding: "35px 0px",
   },
