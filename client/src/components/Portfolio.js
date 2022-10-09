@@ -20,10 +20,6 @@ const styles = {
     padding: 10,
     textAlign: "center",
   },
-  image: {
-    width: "35%",
-    border: "5px solid #3F4E4F",
-  },
 };
 
 function Portfolio() {

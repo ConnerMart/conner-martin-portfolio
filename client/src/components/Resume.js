@@ -21,9 +21,19 @@ const styles = {
     padding: 10,
     textAlign: "center",
   },
-  image: {
-    width: "35%",
-    border: "5px solid #3F4E4F",
+  button: {
+    backgroundColor: "#3F4E4F",
+    padding: 7,
+    border: "3px solid #1C6758",
+  },
+  link: {
+    textDecoration: "none",
+    color: "white",
+    fontWeight: "bold",
+  },
+  list: {
+    listStyle: "none",
+    padding: 0,
   },
 };
 
@@ -32,12 +42,21 @@ function Resume() {
     <div style={styles.card}>
       <div style={styles.heading}>Resume</div>
       <div style={styles.content}>
-        <p>Here's some text!</p>
-        <p>
-          <a href={resume} target="_blank" rel="noreferrer">
+        <h3>Proficiencies:</h3>
+        <ul style={styles.list}>
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Node</li>
+          <li>Express</li>
+          <li>MongoDB</li>
+          <li>React</li>
+        </ul>
+        <button style={styles.button}>
+          <a href={resume} target="_blank" rel="noreferrer" style={styles.link}>
             Download Resume
           </a>
-        </p>
+        </button>
       </div>
     </div>
   );
