@@ -1,4 +1,6 @@
 import React from "react";
+import project1 from "../assets/project1screenshot.jpg";
+import project2 from "../assets/project2screenshot.jpg";
 
 const styles = {
   card: {
@@ -20,6 +22,11 @@ const styles = {
     padding: 10,
     textAlign: "center",
   },
+  image: {
+    width: "50%",
+    border: "3px solid #3F4E4F",
+    marginBottom: 25,
+  },
 };
 
 function Portfolio() {
@@ -27,13 +34,30 @@ function Portfolio() {
     <div style={styles.card}>
       <div style={styles.heading}>Portfolio</div>
       <div style={styles.content}>
-        <p>Here's some text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
+        <h3>Social Planner App</h3>
+        <a
+          href="https://dylangriess.github.io/Project1-Social-Calendar/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={project1}
+            alt="screenshot of our social planner app"
+            style={styles.image}
+          />
+        </a>
+        <h3>Hobby Discussion App</h3>
+        <a
+          href="https://damp-reaches-02576.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            src={project2}
+            alt="screenshot of our hobby discussion app"
+            style={styles.image}
+          />
+        </a>
       </div>
     </div>
   );

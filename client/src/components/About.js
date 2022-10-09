@@ -37,11 +37,7 @@ function About() {
           Coding Boot Camp.
         </p>
         <p>I am looking forward to developing my knowledge and skills!</p>
-        <img
-          src={profilepic}
-          alt="conner profile pic"
-          style={styles.image}
-        ></img>
+        <img src={profilepic} alt="conner profile pic" style={styles.image} />
       </div>
     </div>
   );
