@@ -2,7 +2,8 @@ import React from "react";
 
 const styles = {
   card: {
-    margin: 20,
+    margin: "20px 75px",
+    minHeight: 750,
     background: "#3D8361",
   },
   heading: {

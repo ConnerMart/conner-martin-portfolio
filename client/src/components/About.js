@@ -1,10 +1,11 @@
 import React from "react";
+import profilepic from "../assets/profilepic.jpg";
 
 const styles = {
   card: {
-    background: "#3D8361",
     margin: "20px 75px",
     minHeight: 750,
+    background: "#3D8361",
   },
   heading: {
     background: "#1C6758",
@@ -19,6 +20,10 @@ const styles = {
     padding: 20,
     textAlign: "center",
   },
+  image: {
+    width: "35%",
+    border: "5px solid #3F4E4F",
+  },
 };
 
 function About() {
@@ -31,8 +36,11 @@ function About() {
         <p>And text!</p>
         <p>And text!</p>
         <p>And text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
+        <img
+          src={profilepic}
+          alt="conner profile pic"
+          style={styles.image}
+        ></img>
       </div>
     </div>
   );

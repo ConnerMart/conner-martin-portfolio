@@ -17,7 +17,7 @@ const styles = {
     margin: "0px 125px",
     textDecoration: "none",
     padding: "8px",
-    border: "3px solid #3D8361",
+    border: "3px solid #3F4E4F",
   },
 };
 
