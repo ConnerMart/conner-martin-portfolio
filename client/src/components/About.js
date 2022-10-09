@@ -2,19 +2,22 @@ import React from "react";
 
 const styles = {
   card: {
-    margin: 20,
     background: "#3D8361",
+    margin: "20px 75px",
+    minHeight: 750,
   },
   heading: {
     background: "#1C6758",
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "1.2rem",
+    textAlign: "center",
     color: "white",
     padding: "0 20px",
   },
   content: {
     padding: 20,
+    textAlign: "center",
   },
 };
 

@@ -10,11 +10,13 @@ const styles = {
     minHeight: 50,
     lineHeight: 3.5,
     fontSize: "1.2rem",
+    textAlign: "center",
     color: "white",
     padding: "0 20px",
   },
   content: {
     padding: 20,
+    textAlign: "center",
   },
 };
 
@@ -24,6 +26,12 @@ function Portfolio() {
       <div style={styles.heading}>Portfolio</div>
       <div style={styles.content}>
         <p>Here's some text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
+        <p>And text!</p>
       </div>
     </div>
   );

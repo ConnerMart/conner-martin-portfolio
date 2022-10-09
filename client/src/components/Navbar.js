@@ -7,11 +7,14 @@ const styles = {
     display: "flex",
     flexDirection: "horizontal",
     justifyContent: "space-evenly",
+    margin: "20px 75px",
   },
   text: {
     color: "white",
     textAlign: "center",
     textDecoration: "none",
+    background: "#1C6758",
+    padding: 10,
   },
 };
 
