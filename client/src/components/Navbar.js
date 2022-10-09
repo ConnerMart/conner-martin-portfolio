@@ -15,6 +15,7 @@ const styles = {
     textDecoration: "none",
     background: "#1C6758",
     padding: 10,
+    fontSize: "1.3rem",
   },
 };
 

@@ -5,7 +5,8 @@ const styles = {
     color: "white",
     backgroundColor: "#1C6758",
     textAlign: "center",
-    padding: "35px 0px",
+    padding: "30px 0px 20px 0px",
+    fontSize: "3rem",
   },
 };
 

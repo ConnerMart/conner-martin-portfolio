@@ -10,14 +10,15 @@ const styles = {
   heading: {
     background: "#1C6758",
     minHeight: 50,
-    lineHeight: 3.5,
-    fontSize: "1.2rem",
+    lineHeight: 2.5,
+    fontSize: "1.8rem",
+    fontWeight: "bold",
     textAlign: "center",
     color: "white",
     padding: "0 20px",
   },
   content: {
-    padding: 20,
+    padding: 10,
     textAlign: "center",
   },
   image: {
@@ -31,11 +32,11 @@ function About() {
     <div style={styles.card}>
       <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
-        <p>Here's some text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
-        <p>And text!</p>
+        <p>
+          I am currently a student at the University of Denver's Fullstack
+          Coding Boot Camp.
+        </p>
+        <p>I am looking forward to developing my knowledge and skills!</p>
         <img
           src={profilepic}
           alt="conner profile pic"
