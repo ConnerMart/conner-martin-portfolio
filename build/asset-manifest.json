@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/static/js/main.14b46bd8.js",
-    "static/media/profilepic.jpg": "/static/media/profilepic.2f906e33b3c9c2cc6591.jpg",
-    "static/media/project1screenshot.jpg": "/static/media/project1screenshot.d1520bc74d22ac69c6c6.jpg",
-    "static/media/project2screenshot.jpg": "/static/media/project2screenshot.f947ab6fe5a992b7c545.jpg",
-    "static/media/Conner-Martin-Resume.docx": "/static/media/Conner-Martin-Resume.60be246a5c597bead227.docx",
-    "index.html": "/index.html",
-    "main.14b46bd8.js.map": "/static/js/main.14b46bd8.js.map"
+    "main.js": "/react-portfolio/static/js/main.50bb31c0.js",
+    "static/media/profilepic.jpg": "/react-portfolio/static/media/profilepic.2f906e33b3c9c2cc6591.jpg",
+    "static/media/project1screenshot.jpg": "/react-portfolio/static/media/project1screenshot.d1520bc74d22ac69c6c6.jpg",
+    "static/media/project2screenshot.jpg": "/react-portfolio/static/media/project2screenshot.f947ab6fe5a992b7c545.jpg",
+    "static/media/Conner-Martin-Resume.docx": "/react-portfolio/static/media/Conner-Martin-Resume.60be246a5c597bead227.docx",
+    "index.html": "/react-portfolio/index.html",
+    "main.50bb31c0.js.map": "/react-portfolio/static/js/main.50bb31c0.js.map"
   },
   "entrypoints": [
-    "static/js/main.14b46bd8.js"
+    "static/js/main.50bb31c0.js"
   ]
 }
