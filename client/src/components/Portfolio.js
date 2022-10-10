@@ -58,6 +58,9 @@ function Portfolio() {
             style={styles.image}
           />
         </a>
+        <p>
+          <b>(click images to view projects)</b>
+        </p>
       </div>
     </div>
   );

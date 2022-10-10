@@ -8,8 +8,8 @@ const styles = {
     display: "flex",
     flexDirection: "horizontal",
     justifyContent: "center",
-    position: "fixed",
-    bottom: 0,
+    // position: "fixed",
+    // bottom: 0,
     width: "100%",
   },
   links: {
