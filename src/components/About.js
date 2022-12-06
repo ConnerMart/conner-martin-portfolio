@@ -32,11 +32,7 @@ function About() {
     <div style={styles.card}>
       <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
-        <p>
-          I am currently a student at the University of Denver's Fullstack
-          Coding Boot Camp.
-        </p>
-        <p>I am looking forward to developing my knowledge and skills!</p>
+        <p>lorem</p>
         <img src={profilepic} alt="conner profile pic" style={styles.image} />
       </div>
     </div>

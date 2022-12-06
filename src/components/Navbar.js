@@ -28,8 +28,8 @@ function Navbar() {
         </Link>
       </h3>
       <h3>
-        <Link to="/portfolio" style={styles.text}>
-          Portfolio
+        <Link to="/projects" style={styles.text}>
+          Projects
         </Link>
       </h3>
       <h3>

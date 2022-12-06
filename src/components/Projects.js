@@ -29,7 +29,7 @@ const styles = {
   },
 };
 
-function Portfolio() {
+function Projects() {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>Portfolio</div>
@@ -66,4 +66,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Projects;
