@@ -46,7 +46,8 @@ export default App;
 // pick nicer FONT(s)
 // change tab icon
 
-// make whole app mobile-friendly
+// make app mobile-friendly
+// have navbar, proficiencies stack
 
 // links on projects component to GITHUB PAGES
 

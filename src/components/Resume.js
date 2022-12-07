@@ -2,6 +2,8 @@ import React from "react";
 
 // TODO:
 import resume from "../assets/Conner-Martin-Resume.docx";
+import resumeExp from "../assets/resume-experience.png";
+import resumeEdu from "../assets/resume-education.png";
 
 const styles = {
   card: {
@@ -22,6 +24,11 @@ const styles = {
   content: {
     padding: 10,
     textAlign: "center",
+  },
+
+  resumePage: {
+    height: "850px",
+    margin: "5px 10px",
   },
   button: {
     backgroundColor: "#3F4E4F",
@@ -44,9 +51,21 @@ function Resume() {
     <div style={styles.card}>
       <div style={styles.heading}>Resume</div>
       <div style={styles.content}>
+        <div>
+          <img
+            src={resumeExp}
+            alt="resume experience page"
+            style={styles.resumePage}
+          />
+          <img
+            src={resumeEdu}
+            alt="resume educaiton page"
+            style={styles.resumePage}
+          />
+        </div>
         <button style={styles.button}>
           <a href={resume} target="_blank" rel="noreferrer" style={styles.link}>
-            Download Resume
+            Click to Download Resume as Word Doc
           </a>
         </button>
       </div>
