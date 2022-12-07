@@ -3,14 +3,10 @@ import React from "react";
 const styles = {
   footer: {
     backgroundColor: "#1C6758",
-    textAlign: "center",
-    padding: "20px 0px",
     display: "flex",
     flexDirection: "horizontal",
-    justifyContent: "center",
-    // position: "fixed",
-    // bottom: 0,
-    width: "100%",
+    justifyContent: "space-evenly",
+    margin: "20px 75px",
   },
   links: {
     color: "white",

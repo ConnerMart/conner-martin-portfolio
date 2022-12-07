@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Proficiencies from "./components/Proficiencies";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
@@ -30,6 +31,7 @@ function App() {
             <Route path="/resume" element={<Resume />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Proficiencies />
           <Footer />
         </div>
       </body>
@@ -40,8 +42,15 @@ function App() {
 export default App;
 
 // TODO: change tab icon
+// TODO: clear out all boilerplate
+
+// TODO: add boot camp badge/certification/whatever to proficiencies bar(?)
 
 // TODO: replace resume with new version
 // TODO: add resume to page itself along WITH download button
 
 // TODO: better way of linking to projects
+
+// TODO: make whole app mobile-friendly
+
+// TODO: MERN stack components - popout?
