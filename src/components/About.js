@@ -18,15 +18,16 @@ const styles = {
     padding: "0 20px",
   },
   content: {
-    padding: "20px 175px",
+    padding: "20px 300px",
     textAlign: "center",
   },
+  text: {
+    marginBottom: "40px",
+  },
   image: {
-    // width: "35%",
     height: "335px",
     width: "300px",
     border: "5px solid #3F4E4F",
-    marginTop: "30px",
   },
 };
 
@@ -37,14 +38,16 @@ function About() {
       <div style={styles.content}>
         <p style={styles.text}>
           I am a software developer with experience in <b>JavaScript</b>, the{" "}
-          <b>MERN stack</b>, <b>GraphQL</b>, and more. I am a recent graduate of
-          the University of Denver's Full Stack Coding Book Camp, and I am
-          excited to continue my programming journey and expand my knowledge by
-          learning new languages and technologies.
+          <b>MERN</b> stack, <b>GraphQL</b>, and more. As a recent graduate of
+          the University of Denver's Full Stack Coding Boot Camp, I am excited
+          to continue my programming journey and expand my knowledge by learning
+          new languages and technologies.
         </p>
         <p style={styles.text}>
           I also have a master's degree in Professional Writing and have
-          experience with content writing, editing, and SEO practices.
+          experience with content writing, editing, and SEO practices. I am
+          especially passionate about storytelling and love any opportunity to
+          bring creativity into my work.
         </p>
 
         <img src={profilepic} alt="conner profile pic" style={styles.image} />

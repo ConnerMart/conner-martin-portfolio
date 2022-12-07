@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+import "./App.css";
+
 import Header from "./components/Header";
 // import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
@@ -13,30 +15,24 @@ import Resume from "./components/Resume";
 const styles = {
   body: {
     backgroundColor: "#3F4E4F",
-    // height: "100vh",
-  },
-  main: {
-    height: "100vh",
-    minHeight: "100vh",
+    height: "100%",
   },
 };
 
 function App() {
   return (
     <Router>
-      <body style={styles.body}>
-        <div style={styles.main}>
-          <Header />
-          <Navbar />
-          <Routes>
-            <Route path="/react-portfolio" element={<About />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/resume" element={<Resume />} />
-          </Routes>
-          <Proficiencies />
-        </div>
-      </body>
+      <Header />
+      <section style={styles.body}>
+        <Navbar />
+        <Routes>
+          <Route path="/react-portfolio" element={<About />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/resume" element={<Resume />} />
+        </Routes>
+      </section>
+      <Proficiencies />
     </Router>
   );
 }
@@ -58,5 +54,3 @@ export default App;
 // TODO: make whole app mobile-friendly
 
 // TODO: MERN stack components - popout?
-
-// TODO: get page to fill window!!!
