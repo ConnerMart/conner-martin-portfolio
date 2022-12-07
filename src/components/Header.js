@@ -8,6 +8,8 @@ const styles = {
     backgroundColor: "#1C6758",
     display: "flex",
     justifyContent: "space-between",
+    borderRadius: "20px",
+    margin: "15px",
   },
 
   title: {

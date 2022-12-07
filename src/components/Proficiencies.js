@@ -19,6 +19,7 @@ const styles = {
     flexDirection: "horizontal",
     justifyContent: "space-evenly",
     margin: "20px 75px",
+    borderRadius: "20px",
   },
   proficiency: {},
   icon: {

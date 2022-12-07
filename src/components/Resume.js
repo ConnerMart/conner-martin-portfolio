@@ -1,4 +1,6 @@
 import React from "react";
+
+// TODO:
 import resume from "../assets/Conner-Martin-Resume.docx";
 
 const styles = {
@@ -31,10 +33,10 @@ const styles = {
     color: "white",
     fontWeight: "bold",
   },
-  list: {
-    listStyle: "none",
-    padding: 0,
-  },
+  // list: {
+  //   listStyle: "none",
+  //   padding: 0,
+  // },
 };
 
 function Resume() {
@@ -42,16 +44,6 @@ function Resume() {
     <div style={styles.card}>
       <div style={styles.heading}>Resume</div>
       <div style={styles.content}>
-        <h3>Proficiencies:</h3>
-        <ul style={styles.list}>
-          <li>JavaScript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Node</li>
-          <li>Express</li>
-          <li>MongoDB</li>
-          <li>React</li>
-        </ul>
         <button style={styles.button}>
           <a href={resume} target="_blank" rel="noreferrer" style={styles.link}>
             Download Resume
