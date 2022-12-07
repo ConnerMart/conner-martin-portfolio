@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Header from "./components/Header";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Proficiencies from "./components/Proficiencies";
 import About from "./components/About";
@@ -32,7 +32,6 @@ function App() {
             <Route path="/contact" element={<Contact />} />
           </Routes>
           <Proficiencies />
-          <Footer />
         </div>
       </body>
     </Router>
@@ -43,6 +42,8 @@ export default App;
 
 // TODO: change tab icon
 // TODO: clear out all boilerplate
+
+// TODO: pick nicer FONT(s)
 
 // TODO: add boot camp badge/certification/whatever to proficiencies bar(?)
 
