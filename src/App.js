@@ -44,13 +44,9 @@ export default App;
 
 // TODO: pick nicer FONT(s)
 
-// TODO: add boot camp badge/certification/whatever to proficiencies bar(?)
-
 // TODO: replace resume with new version
 // TODO: add resume to page itself along WITH download button
 
-// TODO: better way of linking to projects
-
 // TODO: make whole app mobile-friendly
 
-// TODO: MERN stack components - popout?
+// https://www.credly.com/badges/765606fb-356e-4581-ad8c-d512131efdc4/linked_in?t=rm4rtt
