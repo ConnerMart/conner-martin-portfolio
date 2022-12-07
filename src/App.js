@@ -8,12 +8,16 @@ import Proficiencies from "./components/Proficiencies";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
-import Contact from "./components/Contact";
+// import Contact from "./components/Contact";
 
 const styles = {
   body: {
     backgroundColor: "#3F4E4F",
+    // height: "100vh",
+  },
+  main: {
     height: "100vh",
+    minHeight: "100vh",
   },
 };
 
@@ -21,7 +25,7 @@ function App() {
   return (
     <Router>
       <body style={styles.body}>
-        <div>
+        <div style={styles.main}>
           <Header />
           <Navbar />
           <Routes>
@@ -29,7 +33,6 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/resume" element={<Resume />} />
-            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Proficiencies />
         </div>
@@ -55,3 +58,5 @@ export default App;
 // TODO: make whole app mobile-friendly
 
 // TODO: MERN stack components - popout?
+
+// TODO: get page to fill window!!!

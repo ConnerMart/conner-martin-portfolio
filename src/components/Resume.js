@@ -11,10 +11,10 @@ const styles = {
     background: "#1C6758",
     minHeight: 50,
     lineHeight: 2.5,
-    fontSize: "1.8rem",
+    fontSize: "2rem",
     fontWeight: "bold",
     textAlign: "center",
-    color: "white",
+    color: "#222222",
     padding: "0 20px",
   },
   content: {

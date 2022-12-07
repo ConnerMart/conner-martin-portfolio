@@ -11,19 +11,22 @@ const styles = {
     background: "#1C6758",
     minHeight: 50,
     lineHeight: 2.5,
-    fontSize: "1.8rem",
+    fontSize: "2rem",
     fontWeight: "bold",
     textAlign: "center",
-    color: "white",
+    color: "#222222",
     padding: "0 20px",
   },
   content: {
-    padding: 10,
+    padding: "20px 175px",
     textAlign: "center",
   },
   image: {
-    width: "35%",
+    // width: "35%",
+    height: "335px",
+    width: "300px",
     border: "5px solid #3F4E4F",
+    marginTop: "30px",
   },
 };
 
@@ -32,14 +35,16 @@ function About() {
     <div style={styles.card}>
       <div style={styles.heading}>About Me</div>
       <div style={styles.content}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+        <p style={styles.text}>
+          I am a software developer with experience in <b>JavaScript</b>, the{" "}
+          <b>MERN stack</b>, <b>GraphQL</b>, and more. I am a recent graduate of
+          the University of Denver's Full Stack Coding Book Camp, and I am
+          excited to continue my programming journey and expand my knowledge by
+          learning new languages and technologies.
+        </p>
+        <p style={styles.text}>
+          I also have a master's degree in Professional Writing and have
+          experience with content writing, editing, and SEO practices.
         </p>
 
         <img src={profilepic} alt="conner profile pic" style={styles.image} />

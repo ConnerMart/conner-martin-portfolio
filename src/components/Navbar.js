@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 
 const styles = {
   navbar: {
-    backgroundColor: "#3D8361",
+    backgroundColor: "#3F4E4F",
     display: "flex",
     flexDirection: "horizontal",
     justifyContent: "space-evenly",
     margin: "20px 75px",
   },
   text: {
-    color: "white",
+    color: "#222222",
     textAlign: "center",
     textDecoration: "none",
     background: "#1C6758",
     padding: 10,
-    fontSize: "1.3rem",
+    fontSize: "1.5rem",
   },
 };
 
@@ -24,7 +24,7 @@ function Navbar() {
     <div style={styles.navbar}>
       <h3>
         <Link to="/about" style={styles.text}>
-          About Me
+          About
         </Link>
       </h3>
       <h3>
@@ -35,11 +35,6 @@ function Navbar() {
       <h3>
         <Link to="/resume" style={styles.text}>
           Resume
-        </Link>
-      </h3>
-      <h3>
-        <Link to="/contact" style={styles.text}>
-          Contact
         </Link>
       </h3>
     </div>

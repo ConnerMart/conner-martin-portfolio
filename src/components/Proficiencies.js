@@ -27,7 +27,7 @@ const styles = {
     width: "70%",
   },
   label: {
-    color: "white",
+    color: "#222222",
     margin: "10px",
     padding: "0px",
     textAlign: "center",
@@ -40,7 +40,7 @@ function Proficiencies() {
     <div style={styles.footer}>
       <div style={styles.proficiency}>
         <img src={iconJS} alt="JS" style={styles.icon} />
-        <h3 style={styles.label}>JS</h3>
+        <h3 style={styles.label}>JavaScript</h3>
       </div>
 
       <div style={styles.proficiency}>

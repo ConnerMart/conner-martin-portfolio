@@ -1,7 +1,7 @@
 import React from "react";
 
 import iconGitHub from "../assets/language-icons/icons8-github-96.png";
-import iconLinkedIn from "../assets/language-icons/icons8-linkedin-96.png";
+import iconLinkedIn from "../assets/language-icons/linkedin-icon-new.png";
 
 const styles = {
   banner: {
@@ -11,30 +11,29 @@ const styles = {
   },
 
   title: {
-    color: "white",
-    // backgroundColor: "#1C6758",
+    color: "#222222",
     textAlign: "left",
     padding: "30px 0px 20px 20px",
     fontSize: "3rem",
+    margin: "0",
   },
 
   allLinks: {
     display: "flex",
-    flexDirection: "column",
     justifyContent: "flex-end",
   },
 
   linkBlock: {
     display: "flex",
     flexDirection: "row",
-    // alignItems: "center",
-    // margin: "0px 30px",
+    alignItems: "space-between",
   },
   icon: {
     display: "block",
     margin: "10px auto",
-    height: "80px",
-    width: "80px",
+    marginRight: "20px",
+    height: "72px",
+    width: "72px",
   },
   link: {
     color: "white",
@@ -55,26 +54,23 @@ function Header() {
 
       <div style={styles.allLinks}>
         <div style={styles.linkBlock}>
-          <img src={iconGitHub} alt="React" style={styles.icon} />
           <a
             href="https://github.com/ConnerMart"
             style={styles.link}
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            <img src={iconGitHub} alt="GitHub" style={styles.icon} />
           </a>
         </div>
-
         <div style={styles.linkBlock}>
-          <img src={iconLinkedIn} alt="React" style={styles.icon} />
           <a
             href="https://www.linkedin.com/in/conner-martin-723267166/"
             style={styles.link}
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn
+            <img src={iconLinkedIn} alt="LinkedIn" style={styles.icon} />
           </a>
         </div>
       </div>
