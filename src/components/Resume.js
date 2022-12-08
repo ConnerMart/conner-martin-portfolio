@@ -15,7 +15,7 @@ const styles = {
     background: "#1C6758",
     minHeight: 50,
     lineHeight: 2.5,
-    fontSize: "2rem",
+    fontSize: "2.5rem",
     fontWeight: "bold",
     textAlign: "center",
     color: "#222222",
@@ -28,17 +28,19 @@ const styles = {
 
   resumePage: {
     height: "850px",
-    margin: "5px 10px",
+    margin: "25px 10px",
   },
   button: {
     backgroundColor: "#3F4E4F",
     padding: 7,
     border: "3px solid #1C6758",
+    margin: "15px auto",
   },
   link: {
     textDecoration: "none",
     color: "white",
     fontWeight: "bold",
+    fontSize: "1rem",
   },
   // list: {
   //   listStyle: "none",
@@ -65,7 +67,7 @@ function Resume() {
         </div>
         <button style={styles.button}>
           <a href={resume} target="_blank" rel="noreferrer" style={styles.link}>
-            Click to Download Resume as Word Doc
+            Click to Download Resume as a Word Doc
           </a>
         </button>
       </div>

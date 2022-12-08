@@ -49,7 +49,4 @@ export default App;
 // make app mobile-friendly
 // have navbar, proficiencies stack
 
-// links on projects component to GITHUB PAGES
-
-// replace resume with new version
-// add resume to page itself along WITH download button
+// add DESCRIPTIONS (from readmes) to projects
