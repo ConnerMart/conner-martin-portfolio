@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Header.css";
+
 import iconGitHub from "../assets/language-icons/icons8-github-96.png";
 import iconLinkedIn from "../assets/language-icons/linkedin-icon-new.png";
 
@@ -18,6 +20,7 @@ const styles = {
     padding: "30px 0px 20px 20px",
     fontSize: "3rem",
     margin: "0",
+    fontFamily: "Roboto Condensed, sans-serif",
   },
 
   allLinks: {
@@ -49,7 +52,7 @@ const styles = {
 
 function Header() {
   return (
-    <div style={styles.banner}>
+    <div className="headerDiv" style={styles.banner}>
       <header>
         <h1 style={styles.title}>Conner Martin</h1>
       </header>

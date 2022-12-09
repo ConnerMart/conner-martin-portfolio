@@ -20,6 +20,7 @@ const styles = {
     textAlign: "center",
     color: "#222222",
     padding: "0 20px",
+    fontFamily: "Roboto Condensed, sans-serif",
   },
   content: {
     padding: 10,
@@ -41,6 +42,7 @@ const styles = {
     color: "white",
     fontWeight: "bold",
     fontSize: "1rem",
+    fontFamily: "Roboto Condensed, sans-serif",
   },
   // list: {
   //   listStyle: "none",

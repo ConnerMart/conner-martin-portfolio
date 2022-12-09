@@ -19,6 +19,7 @@ const styles = {
     textAlign: "center",
     color: "#222222",
     padding: "0 20px",
+    fontFamily: "Roboto Condensed, sans-serif",
   },
   project: {
     padding: 10,
@@ -29,8 +30,12 @@ const styles = {
     border: "3px solid #3F4E4F",
     marginBottom: 5,
   },
+  title: {
+    fontFamily: "Roboto Condensed, sans-serif",
+  },
   description: {
-    margin: "0 25%",
+    margin: "2% 25%",
+    fontFamily: "Roboto Condensed, sans-serif",
   },
 };
 
@@ -40,7 +45,7 @@ function Projects() {
       <div style={styles.heading}>Projects</div>
 
       <div style={styles.project}>
-        <h2>Workday Scheduler</h2>
+        <h2 style={styles.title}>Workday Scheduler</h2>
         <a
           href="https://connermart.github.io/work-day-scheduler/"
           target="_blank"
@@ -56,7 +61,7 @@ function Projects() {
       </div>
 
       <div style={styles.project}>
-        <h2>Team Profile Generator</h2>
+        <h2 style={styles.title}>Team Profile Generator</h2>
         <a
           href="https://github.com/ConnerMart/team-profile-generator"
           target="_blank"
@@ -77,7 +82,7 @@ function Projects() {
       </div>
 
       <div style={styles.project}>
-        <h2>Note-Taker</h2>
+        <h2 style={styles.title}>Note-Taker</h2>
         <a
           href="https://connermart.github.io/note-taker/"
           target="_blank"

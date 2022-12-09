@@ -40,11 +40,7 @@ export default App;
 //
 //
 // TODO:
-
-// clear out all boilerplate
-
-// pick nicer FONT(s)
-
 // make app mobile-friendly:
-// stack navbar
-// stack proficiencies
+//    About
+//    Projects
+//    Resume

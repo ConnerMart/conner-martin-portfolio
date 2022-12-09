@@ -4,6 +4,8 @@ import React from "react";
 import profilepic from "../assets/profilepic.jpg";
 import badge from "../assets/boot-camp-badge.png";
 
+import "../App.css";
+
 const styles = {
   // heading: {
   //   background: "#1C6758",
@@ -37,16 +39,22 @@ const styles = {
   },
   rightCol: {},
   paragraphs: {
-    padding: "0px 60px",
+    padding: "4%",
     textAlign: "center",
-    marginTop: "195px",
+    margin: "145px 100px 10px 100px",
+    backgroundColor: "rgba(105, 105, 105, 0.75)",
+    borderRadius: "20px",
   },
   badge: {
     display: "block",
     margin: "0 auto",
     width: "250px",
   },
-  text: {},
+  text: {
+    fontFamily: "Roboto Condensed, sans-serif",
+    lineHeight: "150%",
+    // fontWeight: "bold",
+  },
 };
 
 function About() {
@@ -61,11 +69,14 @@ function About() {
         <div style={styles.rightCol}>
           <div style={styles.paragraphs}>
             <p style={styles.text}>
-              I am a software developer with experience in <b>JavaScript</b>,
-              the <b>MERN</b> stack, <b>GraphQL</b>, and more. As a recent
-              graduate of the University of Denver's Full Stack Coding Boot
-              Camp, I am excited to continue my programming journey and expand
-              my knowledge by learning new languages and technologies.
+              I am a software developer with experience in JavaScript, the MERN
+              stack, GraphQL, and more.
+            </p>
+            <p style={styles.text}>
+              As a recent graduate of the University of Denver's Full Stack
+              Coding Boot Camp, I am excited to continue my programming journey
+              and expand my knowledge by learning new languages and
+              technologies.
             </p>
             <p style={styles.text}>
               I also have a master's degree in Professional Writing and have

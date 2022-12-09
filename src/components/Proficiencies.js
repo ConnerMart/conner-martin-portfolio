@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Proficiencies.css";
+
 import iconHTML from "../assets/language-icons/icons8-html-5-96.png";
 import iconCSS from "../assets/language-icons/icons8-css3-96.png";
 import iconJS from "../assets/language-icons/icons8-javascript-logo-100.png";
@@ -25,7 +27,7 @@ const styles = {
   icon: {
     display: "block",
     margin: "10px auto",
-    width: "70%",
+    width: "50px",
   },
   label: {
     color: "#222222",
@@ -33,13 +35,14 @@ const styles = {
     padding: "0px",
     textAlign: "center",
     fontSize: "1.05rem",
+    fontFamily: "Roboto Condensed, sans-serif",
   },
 };
 
 function Proficiencies() {
   return (
-    <div style={styles.footer}>
-      <div style={styles.proficiency}>
+    <div className="profDiv" style={styles.footer}>
+      <div className="proficiencies" style={styles.proficiency}>
         <img src={iconJS} alt="JS" style={styles.icon} />
         <h3 style={styles.label}>JavaScript</h3>
       </div>

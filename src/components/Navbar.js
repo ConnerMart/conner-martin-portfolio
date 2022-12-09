@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "./Navbar.css";
+
 const styles = {
   navbar: {
     backgroundColor: "#3F4E4F",
@@ -14,16 +16,17 @@ const styles = {
     textAlign: "center",
     textDecoration: "none",
     background: "#1C6758",
-    padding: 10,
+    padding: "10px 15px",
     fontSize: "1.5rem",
     border: "2px solid black",
     borderRadius: "20px",
+    fontFamily: "Roboto Condensed, sans-serif",
   },
 };
 
 function Navbar() {
   return (
-    <div style={styles.navbar}>
+    <div className="navbarDiv" style={styles.navbar}>
       <h3>
         <Link to="/about" style={styles.text}>
           Home/About
