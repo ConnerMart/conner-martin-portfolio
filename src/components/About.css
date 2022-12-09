@@ -1,0 +1,20 @@
+@media screen and (max-width: 1260px) {
+  .aboutDiv {
+    flex-direction: column;
+  }
+  .paragraphsDiv {
+    margin: auto auto;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .imageDiv {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .badgeDiv {
+    visibility: hidden;
+  }
+}

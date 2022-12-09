@@ -1,6 +1,7 @@
 import React from "react";
 
-// TODO:
+import "./Resume.css";
+
 import resume from "../assets/Conner-Martin-Resume.docx";
 import resumeExp from "../assets/resume-experience.png";
 import resumeEdu from "../assets/resume-education.png";
@@ -10,6 +11,7 @@ const styles = {
     margin: "20px 75px",
     minHeight: 750,
     background: "#3D8361",
+    borderRadius: "20px",
   },
   heading: {
     background: "#1C6758",
@@ -21,6 +23,7 @@ const styles = {
     color: "#222222",
     padding: "0 20px",
     fontFamily: "Roboto Condensed, sans-serif",
+    borderRadius: "20px 20px 0px 0px",
   },
   content: {
     padding: 10,
@@ -60,11 +63,13 @@ function Resume() {
             src={resumeExp}
             alt="resume experience page"
             style={styles.resumePage}
+            className="resumeDiv"
           />
           <img
             src={resumeEdu}
             alt="resume educaiton page"
             style={styles.resumePage}
+            className="resumeDiv"
           />
         </div>
         <button style={styles.button}>

@@ -1,6 +1,8 @@
 import React from "react";
 // import { useState } from "react";
 
+import "./About.css";
+
 import profilepic from "../assets/profilepic.jpg";
 import badge from "../assets/boot-camp-badge.png";
 
@@ -28,10 +30,10 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
-    margin: "0 85px",
+    margin: "20px 85px",
   },
   image: {
-    height: "400px",
+    height: "450px",
     border: "3px solid #3F4E4F",
     margin: "auto auto",
     position: "relative",
@@ -41,7 +43,7 @@ const styles = {
   paragraphs: {
     padding: "4%",
     textAlign: "center",
-    margin: "145px 100px 10px 100px",
+    margin: "10% 5% 5% 5%",
     backgroundColor: "rgba(105, 105, 105, 0.75)",
     borderRadius: "20px",
   },
@@ -53,7 +55,6 @@ const styles = {
   text: {
     fontFamily: "Roboto Condensed, sans-serif",
     lineHeight: "150%",
-    // fontWeight: "bold",
   },
 };
 
@@ -61,13 +62,18 @@ function About() {
   return (
     <>
       {/* <div style={styles.heading}>About Me</div> */}
-      <div style={styles.card}>
+      <div className="aboutDiv" style={styles.card}>
         <div style={styles.leftCol}>
-          <img src={profilepic} alt="conner profile pic" style={styles.image} />
+          <img
+            src={profilepic}
+            alt="conner profile pic"
+            style={styles.image}
+            className="imageDiv"
+          />
         </div>
 
         <div style={styles.rightCol}>
-          <div style={styles.paragraphs}>
+          <div className="paragraphsDiv" style={styles.paragraphs}>
             <p style={styles.text}>
               I am a software developer with experience in JavaScript, the MERN
               stack, GraphQL, and more.
@@ -96,6 +102,7 @@ function About() {
               src={badge}
               alt="denver full-stack boot camp badge"
               style={styles.badge}
+              className="badgeDiv"
             />
           </a>
         </div>

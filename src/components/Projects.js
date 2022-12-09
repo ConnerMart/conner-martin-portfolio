@@ -9,6 +9,7 @@ const styles = {
     margin: "20px 75px",
     minHeight: 750,
     background: "#3D8361",
+    borderRadius: "20px",
   },
   heading: {
     background: "#1C6758",
@@ -20,13 +21,14 @@ const styles = {
     color: "#222222",
     padding: "0 20px",
     fontFamily: "Roboto Condensed, sans-serif",
+    borderRadius: "20px 20px 0px 0px",
   },
   project: {
     padding: 10,
     textAlign: "center",
   },
   image: {
-    width: "600px",
+    width: "45%",
     border: "3px solid #3F4E4F",
     marginBottom: 5,
   },

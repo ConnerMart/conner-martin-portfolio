@@ -36,11 +36,3 @@ function App() {
 }
 
 export default App;
-
-//
-//
-// TODO:
-// make app mobile-friendly:
-//    About
-//    Projects
-//    Resume
