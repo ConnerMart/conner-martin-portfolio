@@ -46,7 +46,6 @@ export default App;
 // pick nicer FONT(s)
 // change tab icon
 
-// make app mobile-friendly
-// have navbar, proficiencies stack
-
-// add DESCRIPTIONS (from readmes) to projects
+// make app mobile-friendly:
+// stack navbar
+// stack proficiencies

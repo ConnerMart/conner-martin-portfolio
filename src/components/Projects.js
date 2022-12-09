@@ -27,7 +27,10 @@ const styles = {
   image: {
     width: "600px",
     border: "3px solid #3F4E4F",
-    marginBottom: 25,
+    marginBottom: 5,
+  },
+  description: {
+    margin: "0 25%",
   },
 };
 
@@ -45,6 +48,11 @@ function Projects() {
         >
           <img src={scheduler} alt="workday scheduler" style={styles.image} />
         </a>
+        <p style={styles.description}>
+          A scheduling application that shows the hours in a standard workday,
+          color-coded based on whether an hour block is in the past, present, or
+          future.
+        </p>
       </div>
 
       <div style={styles.project}>
@@ -60,6 +68,12 @@ function Projects() {
             style={styles.image}
           />
         </a>
+        <p style={styles.description}>
+          A command-line application that allows the user to input data for
+          different members of a team. The application then renders a team
+          profile as an HTML file, with cards displaying each team member's
+          information.
+        </p>
       </div>
 
       <div style={styles.project}>
@@ -71,6 +85,11 @@ function Projects() {
         >
           <img src={noteTaker} alt="note-taker" style={styles.image} />
         </a>
+        <p style={styles.description}>
+          An application that allows the user to enter notes. Notes are saved to
+          a JSON file and displayed on the left-hand side of the page, and
+          previous notes can be viewed by clicking on them.
+        </p>
       </div>
     </div>
   );
