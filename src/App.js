@@ -44,7 +44,6 @@ export default App;
 // clear out all boilerplate
 
 // pick nicer FONT(s)
-// change tab icon
 
 // make app mobile-friendly:
 // stack navbar
