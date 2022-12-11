@@ -17,7 +17,7 @@ const styles = {
   title: {
     color: "#222222",
     textAlign: "left",
-    padding: "30px 0px 20px 20px",
+    padding: "30px 0px 20px 35px",
     fontSize: "3rem",
     margin: "0",
     fontFamily: "Roboto Condensed, sans-serif",
@@ -26,6 +26,8 @@ const styles = {
   allLinks: {
     display: "flex",
     justifyContent: "flex-end",
+    marginRight: "20px",
+    marginLeft: "30px",
   },
 
   linkBlock: {
@@ -36,7 +38,6 @@ const styles = {
   icon: {
     display: "block",
     margin: "10px auto",
-    marginRight: "20px",
     height: "72px",
     width: "72px",
   },

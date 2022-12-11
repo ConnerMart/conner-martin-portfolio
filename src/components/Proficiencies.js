@@ -12,7 +12,7 @@ import iconNode from "../assets/language-icons/icons8-node-js-96.png";
 import iconMySQL from "../assets/language-icons/icons8-mysql-logo-96.png";
 import iconGraphQL from "../assets/language-icons/icons8-graphql-an-open-source-data-query-and-manipulation-language-for-api-96.png";
 import iconBootstrap from "../assets/language-icons/icons8-bootstrap-96.png";
-import iconCSharp from "../assets/language-icons/icons8-c-sharp-logo-96.png";
+// import iconCSharp from "../assets/language-icons/icons8-c-sharp-logo-96.png";
 
 const styles = {
   footer: {
@@ -92,10 +92,10 @@ function Proficiencies() {
         <h3 style={styles.label}>GraphQL</h3>
       </div>
 
-      <div style={styles.proficiency}>
+      {/* <div style={styles.proficiency}>
         <img src={iconCSharp} alt="C#" style={styles.icon} />
         <h3 style={styles.label}>C#</h3>
-      </div>
+      </div> */}
     </div>
   );
 }

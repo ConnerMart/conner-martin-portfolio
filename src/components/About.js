@@ -85,10 +85,11 @@ function About() {
               technologies.
             </p>
             <p style={styles.text}>
-              I also have a master's degree in Professional Writing and have
-              experience with content writing, editing, and SEO practices. I am
-              especially passionate about all forms of storytelling and love any
-              opportunity to bring creativity into my work.
+              Before coding, I got my master's degree in Professional Writing,
+              and I have experience with content writing, editing, and SEO
+              practices. I am especially passionate about all forms of
+              storytelling and love any opportunity to bring creativity into my
+              work.
             </p>
           </div>
 
