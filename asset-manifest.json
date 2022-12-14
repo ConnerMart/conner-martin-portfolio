@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/conner-martin-portfolio/static/css/main.60fbecff.css",
-    "main.js": "/conner-martin-portfolio/static/js/main.7f54a4b3.js",
+    "main.js": "/conner-martin-portfolio/static/js/main.9a68afd9.js",
     "static/media/profilepic.jpg": "/conner-martin-portfolio/static/media/profilepic.2f906e33b3c9c2cc6591.jpg",
     "static/media/team-profile-screenshot.jpg": "/conner-martin-portfolio/static/media/team-profile-screenshot.ea8ebfa27bd7693d199e.jpg",
     "static/media/resume-experience.png": "/conner-martin-portfolio/static/media/resume-experience.8b9281902e8a9933e6d9.png",
@@ -13,10 +13,10 @@
     "static/media/linkedin-icon-new.png": "/conner-martin-portfolio/static/media/linkedin-icon-new.af3f0c639abd231a3d18.png",
     "index.html": "/conner-martin-portfolio/index.html",
     "main.60fbecff.css.map": "/conner-martin-portfolio/static/css/main.60fbecff.css.map",
-    "main.7f54a4b3.js.map": "/conner-martin-portfolio/static/js/main.7f54a4b3.js.map"
+    "main.9a68afd9.js.map": "/conner-martin-portfolio/static/js/main.9a68afd9.js.map"
   },
   "entrypoints": [
     "static/css/main.60fbecff.css",
-    "static/js/main.7f54a4b3.js"
+    "static/js/main.9a68afd9.js"
   ]
 }
